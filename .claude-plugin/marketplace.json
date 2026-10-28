@@ -1,0 +1,13 @@
+{
+  "name": "trilok-mobile",
+  "owner": {
+    "name": "trilokkumawat"
+  },
+  "plugins": [
+    {
+      "name": "flutter-mobile-kit",
+      "source": "./",
+      "description": "Product discovery, global compliance, mobile UI, and report-first quality checks for Flutter apps on Android, iPhone, and iPad."
+    }
+  ]
+}

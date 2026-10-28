@@ -1,0 +1,28 @@
+# Graphify output is derived from source and may carry source-derived labels.
+# Never commit it from this repository.
+graphify-out/
+.graphify_labels.json.sig
+
+# Dart tooling for the kit's scripts and test fixtures
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Secrets and signing material must never land in this public repository
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+*.p8
+*.p12
+*.pem
+*.mobileprovision

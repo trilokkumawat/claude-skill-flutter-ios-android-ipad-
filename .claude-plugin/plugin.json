@@ -1,0 +1,22 @@
+{
+  "name": "flutter-mobile-kit",
+  "description": "Product discovery, global compliance, mobile UI, and report-first quality checks for Flutter apps on Android, iPhone, and iPad, with Graphify and Dart import-graph architecture analysis and named specialist subagents.",
+  "author": {
+    "name": "trilokkumawat"
+  },
+  "homepage": "https://github.com/trilokkumawat/claude-skill-flutter-ios-android-ipad-",
+  "repository": "https://github.com/trilokkumawat/claude-skill-flutter-ios-android-ipad-",
+  "license": "MIT",
+  "keywords": [
+    "flutter",
+    "dart",
+    "android",
+    "ios",
+    "ipad",
+    "mobile",
+    "architecture",
+    "compliance",
+    "accessibility",
+    "testing"
+  ]
+}

@@ -1,0 +1,42 @@
+# .graphifyignore — keeps build output, generated code, and secrets out of the graph.
+# Graphify also honours .gitignore. This file uses .gitignore-style patterns; confirm the
+# syntax against your installed Graphify version before relying on negation rules.
+
+# Build and tool output
+build/
+.dart_tool/
+.fvm/
+.flutter-plugins
+.flutter-plugins-dependencies
+coverage/
+**/Pods/
+**/.symlinks/
+**/DerivedData/
+android/.gradle/
+android/app/build/
+ios/Flutter/ephemeral/
+
+# Generated code — regenerate it, do not graph it
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.mocks.dart
+GeneratedPluginRegistrant.*
+
+# Secrets and signing material — must never enter a graph
+.env
+.env.*
+*.jks
+*.keystore
+key.properties
+*.p8
+*.p12
+*.pem
+*.cer
+*.mobileprovision
+*service-account*.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Graph output itself
+graphify-out/

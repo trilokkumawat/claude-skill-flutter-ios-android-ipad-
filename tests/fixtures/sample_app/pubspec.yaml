@@ -1,0 +1,6 @@
+name: sample_app
+description: Fixture for the import-graph analyser. Not a runnable app.
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
